@@ -1,0 +1,70 @@
+{
+  "cars": [
+    {
+      "id": 3,
+      "name": "Audi R8 V10",
+      "price": 8900000,
+      "image": "https://avatars.mds.yandex.net/get-autoru-vos/2165894/2c80cab9fe1392ca109288d1460ed65c/1200x900n"
+    },
+    {
+      "id": 4,
+      "name": "BMW X5 M50i",
+      "price": 9790000,
+      "image": "https://avatars.mds.yandex.net/get-autoru-vos/1880478/51b7ad8ac0f39b0b227f66c74d442e5f/1200x900n"
+    },
+    {
+      "id": 6,
+      "name": "BMW XM",
+      "price": 30990000,
+      "image": "https://avatars.mds.yandex.net/get-autoru-vos/2164482/e2189536c033a5f913bfdbb3f0f749a0/1200x900n"
+    },
+    {
+      "id": 7,
+      "name": "Mercedes-Benz G-Класс AMG 63",
+      "price": 60500000,
+      "image": "https://avatars.mds.yandex.net/get-autoru-vos/2159499/dbfa03835bacb442ae00ffc17246adca/1200x900n"
+    },
+    {
+      "id": 8,
+      "name": "Mercedes-Benz Maybach S-Класс 680",
+      "price": 48201296,
+      "image": "https://avatars.mds.yandex.net/get-autoru-vos/1964949/96123304bf2eba90fefe382b6c293329/1200x900n"
+    },
+    {
+      "id": 9,
+      "name": "Mercedes-Benz S-Класс AMG 63 AMG",
+      "price": 24500000,
+      "image": "https://avatars.mds.yandex.net/get-autoru-vos/2088230/18674f1ed5322ba2d95906b9a9195129/1200x900n"
+    },
+    {
+      "id": 10,
+      "name": "Aurus Senat",
+      "price": 117000000,
+      "image": "https://avatars.mds.yandex.net/get-autoru-vos/1956173/5a7c8ac2350b5d548e511aee79091497/1200x900n"
+    },
+    {
+      "name": "Audi Q7",
+      "price": 3349000,
+      "image": "https://avatars.mds.yandex.net/get-autoru-vos/1992150/e134080d8d1c88940aaa3b12f37be6fb/1200x900n",
+      "id": 12
+    },
+    {
+      "name": "Porsche Cayenne",
+      "price": 5250000,
+      "image": "https://avatars.mds.yandex.net/get-autoru-vos/2161622/b8a8a7b2fef3ab074f24eae99ef87cca/1200x900n",
+      "id": 13
+    },
+    {
+      "name": "BMW X4 20d",
+      "price": 4150000,
+      "image": "https://avatars.mds.yandex.net/get-autoru-vos/2166621/f2a99e934ed40ae2626d48160cb2fb5e/1200x900n",
+      "id": 14
+    },
+    {
+      "name": "Toyota Supra, 2001",
+      "price": 3500000,
+      "image": "https://yastatic.net/naydex/autoru/1CB5He092/9fb57eOh/O7UeQ3Lhyh1UbGgtEtQwxERkT9MJUSxFeIr84V9au8XJQ1Orh3-QKPe71w3mrxJPU97hEhICnC2KTQ6IXDTXQO7BSyd3lescMYw8KZYhRNEREM4ybJVttesoSiNcKAnHyoXwWZZaNE0GD4NrcH_gSnF5UgfyZnl7_2qoLTiUlARbVy6gEtJLO8aOOasDdvC0Jna6UXuDa4Q4-asibWtphct1ULrlCCQvktxwWrE4ctjAenAm4zXIOg24y-7b1sb3ecY_8",
+      "id": 16
+    }
+  ]
+}

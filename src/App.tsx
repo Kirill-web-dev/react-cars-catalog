@@ -12,7 +12,7 @@ export interface ICar {
 const App: React.FC = () => {
   const [isOpen, setIsOpen] = React.useState<boolean>(false);
   const [loading, setLoading] = React.useState<boolean>(true);
-  let [cars, setCars] = React.useState<ICar[]>([]);
+  const [cars, setCars] = React.useState<ICar[]>([]);
   const [currentCar, setCurrentCar] = React.useState<number>(0);
 
   const getAllCars = async () => {
@@ -24,14 +24,14 @@ const App: React.FC = () => {
 
   const removeCar = async (ID: number) => {
     await axios.delete(`http://localhost:8080/cars/${ID}`);
-    setCars((prev) => prev.filter((car) => car.id !== ID));
+    currentCar === 0 ? setCurrentCar(0) : setCurrentCar(currentCar - 1);
+    setCars(cars.filter((car) => car.id !== ID));
   };
 
   React.useEffect(() => {
     getAllCars();
   }, []);
 
-  cars = [];
   if (loading) {
     return (
       <section className="section loading">
@@ -42,8 +42,16 @@ const App: React.FC = () => {
 
   if (!cars.length) {
     return (
+      <section className="section">
+        <h1>Машин в базе данных нет!</h1>
+      </section>
+    );
+  }
+
+  if (!cars[currentCar]) {
+    return (
       <section className="section error">
-        <h1>Ошибка при получении каталога</h1>
+        <h1>Произошла ошибка... перезагрузите страницу</h1>
       </section>
     );
   }
@@ -56,7 +64,7 @@ const App: React.FC = () => {
       </button>
       {isOpen && <AddCar setCars={setCars} cars={cars} setIsOpen={setIsOpen} />}
       <section className="section">
-        <h1>Cars in our store</h1>
+        <h1>Доступные автомобили</h1>
         <div className="cars">
           <div className="buttons">
             <ul>
@@ -66,13 +74,13 @@ const App: React.FC = () => {
                   key={index}
                   onClick={() => setCurrentCar(index)}
                 >
-                  {car.name}
+                  {car.name.replace(/\b,/g, " ")}
                 </li>
               ))}
             </ul>
           </div>
           <div className="car">
-            <h3>{name}</h3>
+            <h3>{name.replace(/\b,/g, " ")}</h3>
             <strong>{price.toLocaleString("en-EN")}₽</strong>
             <img width="500px" src={image} alt="Car" />
             <div className="car__buttons">

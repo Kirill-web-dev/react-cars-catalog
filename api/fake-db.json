@@ -37,12 +37,6 @@
       "image": "https://avatars.mds.yandex.net/get-autoru-vos/2088230/18674f1ed5322ba2d95906b9a9195129/1200x900n"
     },
     {
-      "id": 10,
-      "name": "Aurus Senat",
-      "price": 117000000,
-      "image": "https://avatars.mds.yandex.net/get-autoru-vos/1956173/5a7c8ac2350b5d548e511aee79091497/1200x900n"
-    },
-    {
       "name": "Audi Q7",
       "price": 3349000,
       "image": "https://avatars.mds.yandex.net/get-autoru-vos/1992150/e134080d8d1c88940aaa3b12f37be6fb/1200x900n",
@@ -65,6 +59,12 @@
       "price": 3500000,
       "image": "https://yastatic.net/naydex/autoru/1CB5He092/9fb57eOh/O7UeQ3Lhyh1UbGgtEtQwxERkT9MJUSxFeIr84V9au8XJQ1Orh3-QKPe71w3mrxJPU97hEhICnC2KTQ6IXDTXQO7BSyd3lescMYw8KZYhRNEREM4ybJVttesoSiNcKAnHyoXwWZZaNE0GD4NrcH_gSnF5UgfyZnl7_2qoLTiUlARbVy6gEtJLO8aOOasDdvC0Jna6UXuDa4Q4-asibWtphct1ULrlCCQvktxwWrE4ctjAenAm4zXIOg24y-7b1sb3ecY_8",
       "id": 16
+    },
+    {
+      "id": 1691238517595,
+      "name": "Ferrari, California, 2012",
+      "price": 12999000,
+      "image": "https://avatars.mds.yandex.net/get-autoru-vos/2189681/57fd3f394d98c59a01ffbb358f8c1d31/1200x900n"
     }
   ]
 }

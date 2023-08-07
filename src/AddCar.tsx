@@ -22,6 +22,7 @@ const AddCar: React.FC<IProps> = ({ cars, setCars, setIsOpen }) => {
     };
     await axios.post("http://localhost:8080/cars", newCar);
     setCars([...cars, newCar]);
+    setIsOpen(false);
   };
 
   return (
